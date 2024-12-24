@@ -1,0 +1,28 @@
+UI module notes:
+
+Getting Started:
+
+Initialize UI:
+    npm init -y
+Install express, react, and parcel:
+    npm install express react react-dom parcel
+Run Application:
+     npm start
+
+NOTE: Needs React Version >= 14.0
+
+Breakdown:
+
+server.js – Express server to serve static files from the dist directory.
+
+package.json – Project configuration and dependencies, including start scripts.
+
+node_modules/ – Contains installed dependencies (created by npm install).
+
+src/ – Source files for the website.
+    ndex.html – Base HTML file to load the React app.
+    index.js – Main JavaScript entry point, bootstraps the React app.
+    App.js – Main React component.
+    style.css – Basic CSS styling for the app.
+
+dist/ – Output folder created by Parcel bundler when the project is built or started.

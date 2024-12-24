@@ -1,0 +1,4 @@
+Step 1 - Creating postgres database using docker
+	reference (https://dev.to/andre347/how-to-easily-create-a-postgres-database-in-docker-4moj)
+	
+	create with: docker run --name postgres-db -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
